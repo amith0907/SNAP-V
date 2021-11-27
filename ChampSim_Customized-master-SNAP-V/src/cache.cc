@@ -2966,7 +2966,14 @@ int CACHE::check_hit(PACKET *packet) {
       break;
     }
   }
-
+	//SNAP-V
+  // if(cache_type==IS_DTLB)cout<<"DTLB "<<packet->ip<<" "<<packet->address<<"\n";
+  // if(cache_type==IS_ITLB)cout<<"ITLB "<<packet->ip<<" "<<packet->address<<"\n";
+  // if(cache_type==IS_STLB)cout<<"STLB "<<packet->ip<<" "<<packet->address<<"\n";
+  // if(cache_type==IS_L1D)cout<<"L1D "<<packet->ip<<" "<<packet->address<<"\n";
+  // if(cache_type==IS_L1I)cout<<"L1I "<<packet->ip<<" "<<packet->address<<"\n";
+  // if(cache_type==IS_L2C)cout<<"L2C "<<packet->ip<<" "<<packet->address<<"\n";
+  // if(cache_type==IS_LLC)cout<<"LLC "<<packet->ip<<" "<<packet->address<<"\n";
   return match_way;
 }
 
