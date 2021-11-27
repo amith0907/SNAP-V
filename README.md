@@ -5,4 +5,4 @@ Link to the ppt - https://docs.google.com/presentation/d/1Kwt2D8BxVJlm0W7vqASsYH
 Files modified-
 1) added ipcp files from Biswa's Bouquet of IP based prefetchers
 2) next_2_lines.stlb_pref added to implement IP based prefetcher with degree=2
-3) bug fixes in ooo_cpu.cc when tlb prefetchers are used
+3) Changes in ooo_cpu.cc when tlb prefetchers are used
